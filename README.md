@@ -1,9 +1,11 @@
 make a clone form the repository
 composer install
-make the connection with DB take reference from .env.example file
+npm install
+make the connection with DB take reference (credencials) from .env.example file
 then migrate the table 
 php artisan migrate
 then php atrisan serve
+npm run dev
 make a table for sumer admin
 php artisan make:migration create_admins_table
 

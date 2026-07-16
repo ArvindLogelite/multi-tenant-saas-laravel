@@ -1,0 +1,11 @@
+/vendor
+/node_modules
+.env
+.env.*
+/public/build
+/public/hot
+/storage/*.key
+/bootstrap/cache/*.php
+.phpunit.result.cache
+npm-debug.log
+yarn-error.log

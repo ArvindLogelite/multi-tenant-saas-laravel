@@ -9,6 +9,55 @@ npm run dev
 make a table for sumer admin
 php artisan make:migration create_admins_table
 
+## Requirements
+
+PHP 8.2
+Laravel 12
+PostgreSQL
+Node.js
+
+
+## Installation
+
+git clone repository-url
+
+composer install
+
+npm install
+
+cp .env.example .env
+
+php artisan key:generate
+
+
+## Database Setup
+
+Create database:
+
+saas_db
+
+
+Run:
+
+php artisan migrate
+
+
+## Run Application
+
+php artisan serve
+
+npm run dev
+
+
+## Features
+
+- Super Admin Login
+- Tenant Company Creation
+- Dynamic PostgreSQL Schema Creation
+- Tenant Admin Login
+- Task Management
+- Tenant Isolation
+
 # Multi Tenant SaaS Application
 
 ## Project Overview
